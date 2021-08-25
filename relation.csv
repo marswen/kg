@@ -1,83 +1,83 @@
-0,1,发病性别倾向,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 1}) MERGE (from)-[r:发病性别倾向]->(to);"
-1,2,hyponymy,关系,发病性别倾向,"MATCH (from:关系{oid: 1}), (to:发病性别倾向{oid: 2}) MERGE (from)-[r:hyponymy]->(to);"
-0,3,药物治疗,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 3}) MERGE (from)-[r:药物治疗]->(to);"
-3,4,hyponymy,关系,药物治疗,"MATCH (from:关系{oid: 3}), (to:药物治疗{oid: 4}) MERGE (from)-[r:hyponymy]->(to);"
-3,5,hyponymy,关系,药物治疗,"MATCH (from:关系{oid: 3}), (to:药物治疗{oid: 5}) MERGE (from)-[r:hyponymy]->(to);"
-0,6,所属科室,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 6}) MERGE (from)-[r:所属科室]->(to);"
-6,7,hyponymy,关系,所属科室,"MATCH (from:关系{oid: 6}), (to:所属科室{oid: 7}) MERGE (from)-[r:hyponymy]->(to);"
-6,8,hyponymy,关系,所属科室,"MATCH (from:关系{oid: 6}), (to:所属科室{oid: 8}) MERGE (from)-[r:hyponymy]->(to);"
-0,9,发病部位,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 9}) MERGE (from)-[r:发病部位]->(to);"
-9,10,hyponymy,关系,发病部位,"MATCH (from:关系{oid: 9}), (to:发病部位{oid: 10}) MERGE (from)-[r:hyponymy]->(to);"
-0,11,影像学检查,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 11}) MERGE (from)-[r:影像学检查]->(to);"
-11,12,hyponymy,关系,影像学检查,"MATCH (from:关系{oid: 11}), (to:影像学检查{oid: 12}) MERGE (from)-[r:hyponymy]->(to);"
-11,13,hyponymy,关系,影像学检查,"MATCH (from:关系{oid: 11}), (to:影像学检查{oid: 13}) MERGE (from)-[r:hyponymy]->(to);"
-11,14,hyponymy,关系,影像学检查,"MATCH (from:关系{oid: 11}), (to:影像学检查{oid: 14}) MERGE (from)-[r:hyponymy]->(to);"
-0,15,辅助治疗,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 15}) MERGE (from)-[r:辅助治疗]->(to);"
-15,16,hyponymy,关系,辅助治疗,"MATCH (from:关系{oid: 15}), (to:辅助治疗{oid: 16}) MERGE (from)-[r:hyponymy]->(to);"
-0,17,UMLS,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 17}) MERGE (from)-[r:UMLS]->(to);"
-17,18,hyponymy,关系,UMLS,"MATCH (from:关系{oid: 17}), (to:UMLS{oid: 18}) MERGE (from)-[r:hyponymy]->(to);"
-17,19,hyponymy,关系,UMLS,"MATCH (from:关系{oid: 17}), (to:UMLS{oid: 19}) MERGE (from)-[r:hyponymy]->(to);"
-0,20,ICD10,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 20}) MERGE (from)-[r:ICD10]->(to);"
-20,21,hyponymy,关系,ICD10,"MATCH (from:关系{oid: 20}), (to:ICD10{oid: 21}) MERGE (from)-[r:hyponymy]->(to);"
-20,22,hyponymy,关系,ICD10,"MATCH (from:关系{oid: 20}), (to:ICD10{oid: 22}) MERGE (from)-[r:hyponymy]->(to);"
-0,23,手术治疗,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 23}) MERGE (from)-[r:手术治疗]->(to);"
-23,24,hyponymy,关系,手术治疗,"MATCH (from:关系{oid: 23}), (to:手术治疗{oid: 24}) MERGE (from)-[r:hyponymy]->(to);"
-23,25,hyponymy,关系,手术治疗,"MATCH (from:关系{oid: 23}), (to:手术治疗{oid: 25}) MERGE (from)-[r:hyponymy]->(to);"
-0,26,英文名称,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 26}) MERGE (from)-[r:英文名称]->(to);"
-26,27,hyponymy,关系,英文名称,"MATCH (from:关系{oid: 26}), (to:英文名称{oid: 27}) MERGE (from)-[r:hyponymy]->(to);"
-0,28,病因,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 28}) MERGE (from)-[r:病因]->(to);"
-28,29,hyponymy,关系,病因,"MATCH (from:关系{oid: 28}), (to:病因{oid: 29}) MERGE (from)-[r:hyponymy]->(to);"
-0,30,遗传因素,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 30}) MERGE (from)-[r:遗传因素]->(to);"
-30,31,hyponymy,关系,遗传因素,"MATCH (from:关系{oid: 30}), (to:遗传因素{oid: 31}) MERGE (from)-[r:hyponymy]->(to);"
-0,32,筛查,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 32}) MERGE (from)-[r:筛查]->(to);"
-32,33,hyponymy,关系,筛查,"MATCH (from:关系{oid: 32}), (to:筛查{oid: 33}) MERGE (from)-[r:hyponymy]->(to);"
-0,34,内窥镜检查,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 34}) MERGE (from)-[r:内窥镜检查]->(to);"
-34,35,hyponymy,关系,内窥镜检查,"MATCH (from:关系{oid: 34}), (to:内窥镜检查{oid: 35}) MERGE (from)-[r:hyponymy]->(to);"
-34,36,hyponymy,关系,内窥镜检查,"MATCH (from:关系{oid: 34}), (to:内窥镜检查{oid: 36}) MERGE (from)-[r:hyponymy]->(to);"
-0,37,多发地区,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 37}) MERGE (from)-[r:多发地区]->(to);"
-37,38,hyponymy,关系,多发地区,"MATCH (from:关系{oid: 37}), (to:多发地区{oid: 38}) MERGE (from)-[r:hyponymy]->(to);"
-0,39,治疗方案,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 39}) MERGE (from)-[r:治疗方案]->(to);"
-39,40,hyponymy,关系,治疗方案,"MATCH (from:关系{oid: 39}), (to:治疗方案{oid: 40}) MERGE (from)-[r:hyponymy]->(to);"
-39,41,hyponymy,关系,治疗方案,"MATCH (from:关系{oid: 39}), (to:治疗方案{oid: 41}) MERGE (from)-[r:hyponymy]->(to);"
-0,42,并发症,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 42}) MERGE (from)-[r:并发症]->(to);"
-42,43,hyponymy,关系,并发症,"MATCH (from:关系{oid: 42}), (to:并发症{oid: 43}) MERGE (from)-[r:hyponymy]->(to);"
-42,44,hyponymy,关系,并发症,"MATCH (from:关系{oid: 42}), (to:并发症{oid: 44}) MERGE (from)-[r:hyponymy]->(to);"
-42,45,hyponymy,关系,并发症,"MATCH (from:关系{oid: 42}), (to:并发症{oid: 45}) MERGE (from)-[r:hyponymy]->(to);"
-42,46,hyponymy,关系,并发症,"MATCH (from:关系{oid: 42}), (to:并发症{oid: 46}) MERGE (from)-[r:hyponymy]->(to);"
-42,47,hyponymy,关系,并发症,"MATCH (from:关系{oid: 42}), (to:并发症{oid: 47}) MERGE (from)-[r:hyponymy]->(to);"
-0,48,组织学检查,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 48}) MERGE (from)-[r:组织学检查]->(to);"
-48,49,hyponymy,关系,组织学检查,"MATCH (from:关系{oid: 48}), (to:组织学检查{oid: 49}) MERGE (from)-[r:hyponymy]->(to);"
-0,50,发病率,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 50}) MERGE (from)-[r:发病率]->(to);"
-50,51,hyponymy,关系,发病率,"MATCH (from:关系{oid: 50}), (to:发病率{oid: 51}) MERGE (from)-[r:hyponymy]->(to);"
-0,52,辅助检查,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 52}) MERGE (from)-[r:辅助检查]->(to);"
-52,53,hyponymy,关系,辅助检查,"MATCH (from:关系{oid: 52}), (to:辅助检查{oid: 53}) MERGE (from)-[r:hyponymy]->(to);"
-52,54,hyponymy,关系,辅助检查,"MATCH (from:关系{oid: 52}), (to:辅助检查{oid: 54}) MERGE (from)-[r:hyponymy]->(to);"
-52,55,hyponymy,关系,辅助检查,"MATCH (from:关系{oid: 52}), (to:辅助检查{oid: 55}) MERGE (from)-[r:hyponymy]->(to);"
-0,56,实验室检查,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 56}) MERGE (from)-[r:实验室检查]->(to);"
-56,57,hyponymy,关系,实验室检查,"MATCH (from:关系{oid: 56}), (to:实验室检查{oid: 57}) MERGE (from)-[r:hyponymy]->(to);"
-56,58,hyponymy,关系,实验室检查,"MATCH (from:关系{oid: 56}), (to:实验室检查{oid: 58}) MERGE (from)-[r:hyponymy]->(to);"
-56,59,hyponymy,关系,实验室检查,"MATCH (from:关系{oid: 56}), (to:实验室检查{oid: 59}) MERGE (from)-[r:hyponymy]->(to);"
-56,60,hyponymy,关系,实验室检查,"MATCH (from:关系{oid: 56}), (to:实验室检查{oid: 60}) MERGE (from)-[r:hyponymy]->(to);"
-56,61,hyponymy,关系,实验室检查,"MATCH (from:关系{oid: 56}), (to:实验室检查{oid: 61}) MERGE (from)-[r:hyponymy]->(to);"
-0,62,放化疗治疗,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 62}) MERGE (from)-[r:放化疗治疗]->(to);"
-62,63,hyponymy,关系,放化疗治疗,"MATCH (from:关系{oid: 62}), (to:放化疗治疗{oid: 63}) MERGE (from)-[r:hyponymy]->(to);"
-62,64,hyponymy,关系,放化疗治疗,"MATCH (from:关系{oid: 62}), (to:放化疗治疗{oid: 64}) MERGE (from)-[r:hyponymy]->(to);"
-0,65,临床症状及体征,中心词,关系,"MATCH (from:中心词{oid: 0}), (to:关系{oid: 65}) MERGE (from)-[r:临床症状及体征]->(to);"
-65,66,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 66}) MERGE (from)-[r:hyponymy]->(to);"
-65,67,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 67}) MERGE (from)-[r:hyponymy]->(to);"
-65,68,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 68}) MERGE (from)-[r:hyponymy]->(to);"
-65,69,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 69}) MERGE (from)-[r:hyponymy]->(to);"
-65,70,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 70}) MERGE (from)-[r:hyponymy]->(to);"
-65,71,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 71}) MERGE (from)-[r:hyponymy]->(to);"
-65,72,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 72}) MERGE (from)-[r:hyponymy]->(to);"
-65,73,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 73}) MERGE (from)-[r:hyponymy]->(to);"
-65,74,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 74}) MERGE (from)-[r:hyponymy]->(to);"
-65,75,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 75}) MERGE (from)-[r:hyponymy]->(to);"
-65,76,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 76}) MERGE (from)-[r:hyponymy]->(to);"
-65,77,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 77}) MERGE (from)-[r:hyponymy]->(to);"
-65,78,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 78}) MERGE (from)-[r:hyponymy]->(to);"
-65,79,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 79}) MERGE (from)-[r:hyponymy]->(to);"
-65,80,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 80}) MERGE (from)-[r:hyponymy]->(to);"
-65,81,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 81}) MERGE (from)-[r:hyponymy]->(to);"
-65,82,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 82}) MERGE (from)-[r:hyponymy]->(to);"
-65,83,hyponymy,关系,临床症状及体征,"MATCH (from:关系{oid: 65}), (to:临床症状及体征{oid: 83}) MERGE (from)-[r:hyponymy]->(to);"
+0,1,发病性别倾向
+1,2,
+0,3,药物治疗
+3,4,
+3,5,
+0,6,所属科室
+6,7,
+6,8,
+0,9,发病部位
+9,10,
+0,11,影像学检查
+11,12,
+11,13,
+11,14,
+0,15,辅助治疗
+15,16,
+0,17,UMLS
+17,18,
+17,19,
+0,20,ICD-10
+20,21,
+20,22,
+0,23,手术治疗
+23,24,
+23,25,
+0,26,英文名称
+26,27,
+0,28,病因
+28,29,
+0,30,遗传因素
+30,31,
+0,32,筛查
+32,33,
+0,34,内窥镜检查
+34,35,
+34,36,
+0,37,多发地区
+37,38,
+0,39,治疗方案
+39,40,
+39,41,
+0,42,并发症
+42,43,
+42,44,
+42,45,
+42,46,
+42,47,
+0,48,组织学检查
+48,49,
+0,50,发病率
+50,51,
+0,52,辅助检查
+52,53,
+52,54,
+52,55,
+0,56,实验室检查
+56,57,
+56,58,
+56,59,
+56,60,
+56,61,
+0,62,放化疗治疗
+62,63,
+62,64,
+0,65,临床症状及体征
+65,66,
+65,67,
+65,68,
+65,69,
+65,70,
+65,71,
+65,72,
+65,73,
+65,74,
+65,75,
+65,76,
+65,77,
+65,78,
+65,79,
+65,80,
+65,81,
+65,82,
+65,83,
